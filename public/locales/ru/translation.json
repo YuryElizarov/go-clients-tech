@@ -1,0 +1,1323 @@
+{
+  "auth": {
+    "login": {
+      "title": "Authorization",
+      "email": "email address",
+      "email_error": "Incorrect email address",
+      "password": "password",
+      "password_error": "Min length 8",
+      "forgot": "Forgot your password?",
+      "sign_in_button": "Sign In",
+      "sign_up": "Sign Up",
+      "account": "Don’t have account?"
+    },
+    "fa": {
+      "title": "Please enter 2FA code",
+      "header_text": "Two factor authentication is enabled for your account/ Please enter a code to log in",
+      "breadcrumb": "Назад",
+      "timer": "Send code again",
+      "button": "Verify",
+      "account": "Don’t have account?",
+      "backup": "Enter a backup code"
+    }
+  },
+  "menu": {
+    "home": "Главная",
+    "map": "Локации",
+    "calendar": "Календарь",
+    "patient": "Пациенты",
+    "booking": "Бронирование",
+    "waitlist": "Лист ожидания",
+    "clinic": "Врачи",
+    "star": "Отзывы",
+    "templates": "Шаблоны",
+    "analytic": "Аналитика",
+    "advertisement": "Рекламные кампании",
+    "forms": "Формы",
+    "news": "Новости",
+    "help": "Помощь"
+  },
+  "search": {
+    "placeholder": "Найти клинику, пациента, доктора, запись или...",
+    "show_all": "Все результаты поиска",
+    "modal_title": "Результаты поиска",
+    "tabs": {
+      "all": "All",
+      "patients": "Пациенты",
+      "doctors": "Врачи",
+      "activities": "Активности",
+      "other": "Прочее"
+    }
+  },
+  "profile": {
+    "cancel": "Отменить",
+    "add": "Добавить аккаунт",
+    "pin_modal": {
+      "title": "Введите PIN",
+      "forgot": "Забыли PIN?",
+      "enter": "Войти"
+    }
+  },
+  "activity_view": {
+    "title": "Активности",
+    "all": "Все активности ({{count}})",
+    "options": {
+      "date": "Встречи",
+      "pay": "Платежи",
+      "messages": "Сообщения",
+      "star": "Отзывы"
+    }
+  },
+  "activity": {
+    "detail": "Детали",
+    "cancel": "Отменить",
+    "accept": "Подтвердить",
+    "title": {
+      "pay": "Оплата услуг",
+      "review": "Пациент оставил отзыв",
+      "message": "Пациент отправил сообщение",
+      "date": "Назначена встреча",
+      "visit": "Посещение врача",
+      "history": "Прикреплена история болезни"
+    }
+  },
+  "history": {
+    "patient": "Patient",
+    "birthday": "Birthday",
+    "gender": "Gender",
+    "email": "Email",
+    "phone": "Phone",
+    "zip_code": "Zip code",
+    "starst": "Starst",
+    "provider": "Provider",
+    "insurance": "Insurance",
+    "location": "Location",
+    "app_time": "App. time",
+    "notes": "Notes"
+  },
+  "statistic": {
+    "patients": "Пациенты",
+    "appointments": "Назначения",
+    "reminders": "Напоминания",
+    "satisfaction": "Удовлетворенность",
+    "canceled": "Отменено",
+    "periods": {
+      "days": "За {{period}} дней"
+    },
+    "graphic": {
+      "title": "Статистика посещений",
+      "tabs": {
+        "day": "День",
+        "week": "Неделя",
+        "month": "Месяц",
+        "year": "Год"
+      }
+    }
+  },
+  "notes": {
+    "title": "Заметки",
+    "all": "Все",
+    "create": "Создать",
+    "save": "Сохранить [Enter]",
+    "cancel": "Отмена [Esc]"
+  },
+  "reminder": {
+    "title": "Напоминания о посещениях",
+    "tabs": {
+      "all": "All",
+      "pending": "Pending",
+      "cancelled": "Cancelled",
+      "go_confirmed": "GO Confirmed",
+      "office_confirmed": "Office confirmed",
+      "custom_response": "Custom response",
+      "no_response": "No response"
+    },
+    "table": {
+      "patient_name": "Patient name",
+      "app_time": "App. time",
+      "cellphone": "Cellphone",
+      "email": "Email",
+      "send": "Send",
+      "opt_out": "Opt-out",
+      "response": "Response"
+    }
+  },
+  "messenger": {
+    "title": "Диалоги",
+    "important": "Важное действие",
+    "select_chat": "Выберите чат для продолжения диалога",
+    "new": "Новые сообщения",
+    "unsubscribed": "Unsubscribed for email",
+    "enter": "Введите ваше сообщение...",
+    "tabs": {
+      "all": "All",
+      "patients": "Пациенты",
+      "external": "Внешние",
+      "facebook": "Facebook",
+      "gmb": "ГМБ"
+    }
+  },
+  "reviews": {
+    "title": "Отзывы",
+    "filter": {
+      "select": "Все отзывы ({{count}})",
+      "no_text": "Без текста",
+      "no_answer": "Без ответа"
+    },
+    "review": "Отзыв",
+    "answer": "Ответить",
+    "more": "More",
+    "less": "Less",
+    "statistic": {
+      "title": "Статистика",
+      "google": "Google",
+      "facebook": "Facebook",
+      "negative": "Отрицательные",
+      "report": "Отчет"
+    },
+    "modal": {
+      "title": "Ответ на комментарий",
+      "placeholder": "Введите ваш ответ..."
+    }
+  },
+  "booking": {
+    "tabs": {
+      "patients": "Пациенты",
+      "settings": "Настройки бронирования",
+      "widgets": "Виджеты"
+    },
+    "patients": {
+      "title": "Статусы пациентов",
+      "filters": {
+        "filter": "Filters",
+        "date": "By appt created date",
+        "export": "Export"
+      },
+      "table": {
+        "patient_name": "Patient name",
+        "birth": "Birth",
+        "cellphone": "Cellphone",
+        "email": "Email",
+        "patient_status": "Patient status",
+        "appt_created": "Appt created",
+        "appt_status": "Appt status",
+        "provider": "Provider",
+        "response": "Response",
+        "charge": "Charge",
+        "charge_on": "On",
+        "new": "New patient",
+        "existing": "Existing"
+      }
+    },
+    "widgets": {
+      "button": "Book Now",
+      "copied": "Coped to clipboard!",
+      "tabs": {
+        "institution": "Institution",
+        "location": "Location",
+        "providers": "Providers"
+      }
+    },
+    "services": {
+      "title": "Услуги",
+      "add": "Добавить услугу",
+      "hidden": "Скрыто",
+      "actions": {
+        "edit": "Редактировать",
+        "visible": "Сделать видимой",
+        "delete": "Удалить"
+      }
+    },
+    "doctors": {
+      "title": "Исполнители",
+      "add": "Добавить врача",
+      "timetable": {
+        "title": "Work hours",
+        "day_1": "Пн, Вт, Ср, Чт",
+        "day_2": "Пятница",
+        "day_3": "Суббота"
+      },
+      "types": "Типы",
+      "buttons": {
+        "edit": "Редактировать",
+        "add": "Добавить"
+      },
+      "tags": {
+        "active": "Активный",
+        "vacation": "Отпуск"
+      },
+      "actions": {
+        "edit": "Редактировать",
+        "visible": "Отпуск",
+        "delete": "Удалить"
+      }
+    },
+    "timetable": {
+      "title": "Расписание",
+      "add": "Добавить время",
+      "save": "Save changes",
+      "discard": "Discacrd changes",
+      "days": "Days",
+      "labels": {
+        "from": "From",
+        "operatory": "Operatory",
+        "to": "To",
+        "custom_repeat": "Custom repeat"
+      }
+    },
+    "add_service": {
+      "title": "Добавить услугу",
+      "public": "Опубликовать",
+      "hidden": "Скрыть услугу от пациентов",
+      "after": "(после можно открыть)",
+      "label": {
+        "title": "Название",
+        "delay": "Время на услугу",
+        "price": "Стоимость",
+        "description": "Описание"
+      }
+    },
+    "edit_service": {
+      "title": "Добавить услугу",
+      "public": "Опубликовать",
+      "hidden": "Скрыть услугу от пациентов",
+      "after": "(после можно открыть)",
+      "label": {
+        "title": "Название",
+        "delay": "Время на услугу",
+        "price": "Стоимость",
+        "description": "Описание"
+      }
+    }
+  },
+  "add_doctor": {
+    "title": "Добавление врача",
+    "hidden": "Добавить типы услуг",
+    "save": "Add doctor",
+    "discard": "Discacrd changes",
+    "after": "(после можно открыть)",
+    "label": {
+      "title": "Полное имя врача",
+      "photo": "Изменить фото",
+      "specialisation": "Специализация",
+      "address": "Адреса приема"
+    },
+    "services": {
+      "messages": "Messages",
+      "online_booking": "Online booking",
+      "patients": "Patients",
+      "payments": "Payments"
+    }
+  },
+  "edit_doctor": {
+    "title": "Редактирование врача",
+    "hidden": "Добавить типы услуг",
+    "save": "Save doctor",
+    "discard": "Discacrd changes",
+    "after": "(после можно открыть)",
+    "label": {
+      "title": "Полное имя врача",
+      "photo": "Изменить фото",
+      "specialisation": "Специализация",
+      "address": "Адреса приема"
+    },
+    "services": {
+      "messages": "Messages",
+      "online_booking": "Online booking",
+      "patients": "Patients",
+      "payments": "Payments"
+    }
+  },
+  "pagination": {
+    "preview": "Назад",
+    "next": "Далее"
+  },
+  "advertisement": {
+    "tabs": {
+      "ads_setup": "ADS Setup",
+      "accounts": "Accounts"
+    },
+    "ads_setup": {
+      "title": "ADS setup",
+      "button": "Добавить аккаунт(ы)",
+      "labels": {
+        "google": "Google Reviews link",
+        "facebook": "Facebook link"
+      }
+    }
+  },
+  "news": {
+    "create": {
+      "title": "Создать пост",
+      "labels": {
+        "where": "Где опубликовать",
+        "when": "Когда опубликовать",
+        "text": "Текст публикации"
+      },
+      "buttons": {
+        "cancel": "Отменить",
+        "public": "Опубликовать"
+      }
+    },
+    "posts": {
+      "title": "Посты",
+      "empty": "У Вас еще нет опубликованных записей",
+      "show_more": "Show more",
+      "show_less": "Show less",
+      "tabs": {
+        "all": "All",
+        "deferred": "Отложенные",
+        "drafts": "Черновики",
+        "facebook": "Facebook",
+        "google": "Google отзывы"
+      }
+    }
+  },
+  "waitlist": {
+    "title": "Waitlist",
+    "filters": {
+      "button": "New request",
+      "select": "Select status"
+    },
+    "tabs": {
+      "all": "All",
+      "asap": "ASAP list",
+      "continuing": "Continuing care",
+      "drafts": "Drafts"
+    },
+    "table": {
+      "header": {
+        "num": "Num",
+        "provider": "Provider",
+        "app_time": "App. time",
+        "recipient": "Recipient",
+        "openrate": "Open Rate"
+      }
+    },
+    "modals": {
+      "new_waitlist": {
+        "title": "New waitlist request",
+        "labels": {
+          "provide_details": "Provide details",
+          "care_starts": "Continuing care starts",
+          "care_ends": "Continuing care ends",
+          "testing_provider": "Testing provider",
+          "appointment_time": "Appointment time"
+        },
+        "buttons": {
+          "save": "Save as draft",
+          "add": "Add request to waitlist"
+        }
+      }
+    }
+  },
+  "forms": {
+    "tabs": {
+      "forms": "Forms",
+      "patients_submissions": "Patients submissions"
+    },
+    "button": "Create new form",
+    "forms": {
+      "headers": {
+        "access": "Access",
+        "title": "Title",
+        "send": "Send to patients",
+        "submitted": "Submitted by patients",
+        "create_date": "Create date"
+      }
+    },
+    "patients": {
+      "headers": {
+        "name": "Patient name",
+        "submission": "Submission",
+        "submitted_by_patients": "Submitted by patients"
+      },
+      "info": {
+        "medical_history": "General practice medical history",
+        "general_practice": "General practice",
+        "history": "Прикреплена история болезни"
+      },
+      "buttons": {
+        "accept": "Подтвердить",
+        "cancel": "Отменить",
+        "details": "Детали"
+      }
+    },
+    "modals": {
+      "qrcode": {
+        "title": "New waitlist request",
+        "button": "Copy link",
+        "input": "Continuing care ends"
+      },
+      "custom": {
+        "title": "Customize form",
+        "button": "Preview",
+        "buttons": {
+          "add": "Add new field",
+          "save": "Save as draft",
+          "create": "Create form"
+        },
+        "labels": {
+          "first_name": "Patient first name",
+          "last_name": "Patient last name",
+          "birth": "Date of Birth",
+          "gender": "Gender",
+          "email": "Patient email",
+          "zip": "Zip postal code",
+          "comment": "Comments special request"
+        }
+      },
+      "select": "Select a new field",
+      "fields": {
+        "text": "Text",
+        "note": "Note",
+        "text_field": "Text field",
+        "text_area": "Text area",
+        "email": "Email",
+        "phone": "Phone",
+        "number": "Number",
+        "date": "Date",
+        "time": "Time",
+        "checkbox": "Checkbox",
+        "radio_buttons": "Radio buttons",
+        "dropdown": "Dropdown",
+        "payment": "Payment"
+      },
+      "checkbox": {
+        "title": "Checkbox block title",
+        "first": "First checkbox title",
+        "add": "Add new variant or add variant «Another»",
+        "hide": "Hide for existing patients",
+        "required": "Required field"
+      }
+    }
+  },
+  "constructor": {
+    "title": "Конструктор сайтов",
+    "button": "Preview",
+    "loading": "Autosaving",
+    "logo": {
+      "button": "Add logo",
+      "text": "PNG or JPG size 64x64px"
+    },
+    "main_photo": {
+      "button": "Add main photo",
+      "text": "PNG or JPG size 1920x1080px"
+    },
+    "main": {
+      "labels": {
+        "title": "Website title",
+        "description": "Расскажите о клинике"
+      }
+    },
+    "banner": {
+      "title": "Текст на баннере",
+      "labels": {
+        "header": "Добавьте заголовок баннера",
+        "description": "Текст баннера",
+        "is_button": "Кнопка “Онлайн-запись” под текстом баннера"
+      }
+    },
+    "news": {
+      "title": "Новости",
+      "desc": "Новости загружаются автоматически, исходя из ваших постов в Facebook и Google, если материалы не будут загружены или вы не синхронизировали соцсети, блок не будет отображаться на вашем сайте."
+    },
+    "gallery": {
+      "title": "Галерея",
+      "desc": "Здесь будут храниться фотографии и видеозаписи, которые вы загрузили на сайт, если материалы не будут загружены, блок не будет отображаться на вашем сайте.",
+      "button": "Add photo"
+    },
+    "doctors": {
+      "title": "Врачи",
+      "desc": "В данном блоке будут отображены врачи, которых вы добавили. Списки загружаются автоматически, поэтомуБ если информация о врачах не заполнена, блок не будет отображаться на вашем сайте."
+    },
+    "reviews": {
+      "title": "Отзывы",
+      "text": "{{count}} reviews",
+      "desc": "Здесь будут показаны отзывы о вашей клинике, которые оставили пользователи. Списки загружаются автоматически, поэтому, если отзывы не синхронизированны, блок не будет отображаться на сайте.",
+      "label": "Collect reviews"
+    },
+    "work_time": {
+      "title": "Work time",
+      "labels": {
+        "sunday": "Sunday",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "from": "From",
+        "to": "To"
+      }
+    },
+    "select_location": {
+      "title": "Select locations"
+    },
+    "select_services": {
+      "title": "Select services"
+    }
+  },
+  "templates": {
+    "tabs": {
+      "all": "All",
+      "default": "Default",
+      "custom": "Custom",
+      "drafts": "Drafts",
+      "email": "Email",
+      "sms": "SMS"
+    },
+    "headers": {
+      "status": "Status",
+      "title": "Title",
+      "total_sent": "Total sent",
+      "recipients": "Recipients",
+      "updated": "Updated",
+      "create_date": "Create date"
+    },
+    "tabs_link": {
+      "actions": "Actions",
+      "perfomance": "Perfomance",
+      "history": "History"
+    },
+    "title": "Templates",
+    "button_add": "New request",
+    "action": {
+      "select": "Select an action",
+      "actions": {
+        "new_action": "New action",
+        "email": "Email reminders",
+        "sms": "SMS reminders",
+        "save": "Save patient data"
+      },
+      "buttons": {
+        "add": "Add new action",
+        "save": "Save as draft",
+        "create": "Create template"
+      },
+      "edit": {
+        "title": "Редактирование отправки",
+        "buttons": {
+          "preview": "Preview",
+          "send": "Send to {{count}} patients",
+          "channel": "Channel",
+          "save": "Save Changes"
+        },
+        "labels": {
+          "title": "Название",
+          "theme": "Тема письма",
+          "email": "Отправка Еmai-сообщения",
+          "sms": "Отправка SMS-сообщения"
+        },
+        "smart_commands": {
+          "title": "Smart commands",
+          "text": "Write command keywords in the key field, separated by commas. If you use any of them in the body of your text, we will automaticaly substitute the appropriate information. To apply a command, use a slash «/», example: /location",
+          "labels": {
+            "logotype": "Logotype",
+            "patient": "Patient",
+            "location": "Location",
+            "company": "Company"
+          }
+        },
+        "tabs": {
+          "email": "Email-рассылка",
+          "sms": "SMS-рассылка"
+        }
+      },
+      "preview": {
+        "title": "«{{title}}» preview",
+        "send": "Send to {{count}} patients"
+      },
+      "send": {
+        "title": "Вы уверены, что хотите разослать эту рассылку?",
+        "text": "Рассылка «15 минут напоминание» будет отправлена 123 пользователям, способами, указанными при редактировании отправки.",
+        "buttons": {
+          "cancel": "Отмена",
+          "send": "Отправить всем"
+        }
+      }
+    },
+    "perfomance": {
+      "headers": {
+        "patient": "Patient",
+        "doctor_seen": "Doctor seen",
+        "received": "Received",
+        "score": "Score"
+      },
+      "filters": {
+        "providers": "Providers",
+        "date": "Filter by date"
+      }
+    },
+    "history": {
+      "headers": {
+        "patient": "Patient",
+        "communication": "Communication",
+        "type": "Type",
+        "sent": "Sent",
+        "provider": "Provider",
+        "appointment": "Appointment date"
+      }
+    }
+  },
+  "user": {
+    "tabs": {
+      "person_data": "Персональные данные",
+      "accounts": "Аккаунты",
+      "personal": "Персонал"
+    },
+    "person_data": {
+      "enter": {
+        "title": "Вход в аккаунт ",
+        "create_pin": "Создайте Pin",
+        "auth": "Двухэтапная аутентификация",
+        "copy": "Copy API Token"
+      },
+      "devices": {
+        "title": "Ваши устройства",
+        "windows": "1 сеанс на компьютере с ОС Windows",
+        "android": "1 сеанс на телефоне Android"
+      },
+      "profile": {
+        "button": "Изменить фото",
+        "facebook": "Аккаунт Facebook"
+      },
+      "statistic": {
+        "title": "Статистика",
+        "total_send": "Total send",
+        "opened": "Opened",
+        "clicked": "Clicked",
+        "report": "Отчет",
+        "google": "Google",
+        "facebook": "Facebook"
+      },
+      "data": {
+        "title": "Personal account data",
+        "buttons": {
+          "change_password": "Изменить пароль",
+          "cancel": "Отменить",
+          "save": "Сохранить"
+        },
+        "labels": {
+          "full_name": "Full name",
+          "email": "Email adress",
+          "phone": "Cellphone",
+          "description": "Расскажите о себе",
+          "location": "Your city"
+        }
+      },
+      "email_setting": {
+        "title": "Email notifications settings",
+        "labels": {
+          "confirmations": "Appointment confirmations",
+          "requests": "Appointment requests",
+          "reschedules": "Appointment reschedules",
+          "form_submissions": "Form submissions",
+          "messages": "Messages",
+          "payments": "Payments",
+          "surveys": "Surveys",
+          "waitlist": "Waitlist"
+        }
+      },
+      "dashboard_setting": {
+        "title": "Dashboard settings",
+        "labels": {
+          "activity": "Активности",
+          "statistic": "Статистика",
+          "nodes": "Заметки",
+          "notification": "Напоминания о посещениях",
+          "cancel": "Отменено"
+        }
+      },
+      "referral": {
+        "title": "Get $200 on us for every referral!",
+        "text": "Know a practice that needs Go Client Tech? Refer us earn $200 when they get a demo! Click here to go started!"
+      }
+    },
+    "personal": {
+      "title": "Mange staff users",
+      "button": "Добавить сотрудника",
+      "headers": {
+        "num": "Num",
+        "name": "Name",
+        "cellphone": "Cellphone",
+        "email": "Email",
+        "location": "Location"
+      }
+    },
+    "accounts": {
+      "button": "Добавить аккаунт"
+    },
+    "add_employee": {
+      "data": {
+        "title": "Добавление нового сотрудника",
+        "labels": {
+          "full_name": "Full name",
+          "email": "Email adress",
+          "phone": "Cellphone",
+          "description": "Расскажите о себе",
+          "location": "Your city",
+          "toggle_before": "Назначить администратором",
+          "toggle_after": "(открывает доступ к управлению локациями)"
+        }
+      },
+      "location": {
+        "title": "Select location",
+        "select_all": "Выбрать все локации"
+      },
+      "permission": {
+        "title": "Set up tabs access permission for this user",
+        "labels": {
+          "messages": "Messages",
+          "online_booking": "Online booking",
+          "patients": "Patients",
+          "payments": "Payments",
+          "calendar": "Calendar",
+          "waitlist": "Waitlist",
+          "templates": "Templates",
+          "campaigns": "Campaigns",
+          "analytics": "Analytics"
+        }
+      }
+    }
+  },
+  "payment": {
+    "check": {
+      "title": "Счета",
+      "payments": "Платежи",
+      "add": "Добавить карту"
+    },
+    "statistic": {
+      "title": "Статистика",
+      "income": "Доход ₽",
+      "failed_transition": "Неудавшихся переводв",
+      "success_transition": "Успешных переводов"
+    },
+    "cheque": {
+      "title": "Чек",
+      "date": "Дата",
+      "time": "Время МСК",
+      "id": "Индификатор операции",
+      "sender": "Отправитель",
+      "senderNumber": "Номер счета",
+      "recipient": "Получатель",
+      "recipientNumber": "Номер счета",
+      "sum": "Сумма"
+    }
+  },
+  "mailing": {
+    "title": "Рекламные кампании",
+    "button": "Новая кампания",
+    "tabs": {
+      "all": "All",
+      "stunt": "Stunt",
+      "draft": "Draft",
+      "reuse": "Reuse"
+    },
+    "headers": {
+      "status": {
+        "title": "Status",
+        "on": "On",
+        "off": "Off"
+      },
+      "name": "Name",
+      "total_sent": "Total sent",
+      "recipient": "Recipient",
+      "open_rate": "Open Rate",
+      "clicked": "Clicked",
+      "last_updated": "Last updated",
+      "created": "Created"
+    },
+    "statistic": {
+      "title": "Статистика",
+      "total_send": "Total send",
+      "opened": "Opened",
+      "clicked": "Clicked",
+      "borsed": "Borsed"
+    },
+    "create": {
+      "title": "Создание рекламной кампании",
+      "buttons": {
+        "preview": "Preview",
+        "send": "Send to {{count}} patients",
+        "channel": "Channel",
+        "save": "Save Changes"
+      },
+      "labels": {
+        "title": "Название",
+        "theme": "Тема письма",
+        "email": "Отправка Еmai-сообщения",
+        "sms": "Отправка SMS-сообщения"
+      },
+      "smart_commands": {
+        "title": "Smart commands",
+        "text": "Write command keywords in the key field, separated by commas. If you use any of them in the body of your text, we will automaticaly substitute the appropriate information. To apply a command, use a slash «/», example: /location",
+        "labels": {
+          "logotype": "Logotype",
+          "patient": "Patient",
+          "location": "Location",
+          "company": "Company"
+        }
+      },
+      "tabs": {
+        "email": "Email-рассылка",
+        "sms": "SMS-рассылка"
+      },
+      "preview": {
+        "title": "«{{title}}» preview",
+        "send": "Send to {{count}} patients"
+      },
+      "send": {
+        "title": "Вы уверены, что хотите разослать эту рассылку?",
+        "text": "Рассылка «15 минут напоминание» будет отправлена 123 пользователям, способами, указанными при редактировании отправки.",
+        "buttons": {
+          "cancel": "Отмена",
+          "send": "Отправить всем"
+        }
+      },
+      "location": {
+        "title": "Select location",
+        "button": "Add location"
+      }
+    },
+    "select_mailing": {
+      "title": "Select mailing list",
+      "filters": {
+        "all": "All active patents",
+        "upload": "Upload CSV",
+        "add": "Add patient"
+      },
+      "filter_block": {
+        "date": "Last senn date",
+        "appointment": "Appointment",
+        "list": "Mailing list"
+      },
+      "labels": {
+        "after": "After",
+        "age": "Age",
+        "choose_date": "Choose date",
+        "choose_range": "Choose range",
+        "choose_providers": "Choose providers",
+        "before": "Before",
+        "providers": "Providers"
+      }
+    }
+  },
+  "analytic": {
+    "title": "Аналитика",
+    "filters": {
+      "service": "Услуга",
+      "doctor": "Врач"
+    },
+    "reviews_count": {
+      "title": "Reviews count",
+      "button": "CSV",
+      "statistic": {
+        "total_patients": "Total patients",
+        "average": "Average survey score"
+      }
+    },
+    "rating_count": {
+      "title": "Rating count",
+      "button": "CSV",
+      "statistic": {
+        "total_patients": "Total patients",
+        "average": "Average survey score"
+      }
+    },
+    "follow_count": {
+      "title": "No-show follow-ups",
+      "button": "CSV",
+      "statistic": {
+        "total_mail": "Total mails send / approved",
+        "total_sms": "Total sms send / approved"
+      }
+    },
+    "patient": {
+      "title": "Patients",
+      "button": "CSV",
+      "statistic": {
+        "total_patients": "Total patients",
+        "total_mails": "Missing mails / sms"
+      },
+      "tabs": {
+        "total": "Total",
+        "new": "New",
+        "inactive": "Inactive",
+        "missing_mails": "Missing mails",
+        "missing_sms": "Missing SMS"
+      }
+    },
+    "appointments": {
+      "title": "Appointments",
+      "button": "CSV",
+      "statistic": {
+        "total_appointments": "Total appointments",
+        "booked": "Booked via Go Clients Tech"
+      },
+      "tabs": {
+        "booked": "Booked",
+        "reschduled": "Reschduled",
+        "no_shows": "No-shows",
+        "cancelled": "Cancelled"
+      }
+    },
+    "satisfaction": {
+      "title": "Patient satisfaction",
+      "button": "CSV",
+      "statistic": {
+        "total_patients": "Total patients",
+        "average": "Average survey score"
+      }
+    }
+  },
+  "patients": {
+    "title": "Patients",
+    "button": "New patient",
+    "provider": "Provider",
+    "tabs": {
+      "subscribed": "Subscribed",
+      "unsubscribed": "Unsubscribed",
+      "drafts": "Drafts"
+    },
+    "subscribe": {
+      "headers": {
+        "patient": "Patient",
+        "birth": "Date of birth",
+        "phone": "Phone",
+        "email": "Email",
+        "service": "Via GoClientsTech service"
+      }
+    },
+    "unsubscribe": {
+      "headers": {
+        "patient": "Patient",
+        "birth": "Date of birth",
+        "phone": "Phone",
+        "email": "Email"
+      },
+      "labels": {
+        "email":"Email message",
+        "sms":"SMS message"
+      },
+      "button": "Submit forms"
+    },
+    "add": {
+      "title": "New patient",
+      "buttons": {
+        "save": "Save as draft",
+        "add": "Add patient"
+      },
+      "labels": {
+        "first_name": "Patient first name",
+        "last_name": "Patient last name",
+        "birth": "Date of Birth",
+        "gender": "Gender",
+        "email": "Patient email",
+        "provider": "Provider",
+        "description": "Comments special request"
+      }
+    },
+    "preferences": {
+      "title": "Communication preferences",
+      "labels": {
+        "activity_reminders": "Activity reminders",
+        "recalls": "Recalls",
+        "reviews": "Reviews",
+        "birth_day": "Birth Day",
+        "email": "Email",
+        "ssm": "SSM"
+      }
+    },
+    "activity": {
+      "title": "Активности пациента",
+      "all": "Все активности ({{count}})",
+      "labels": {
+        "first_name": "Полное имя врача",
+        "second_name": "Полное имя врача",
+        "email": "Email",
+        "phone": "Cellphone",
+        "birth": "Date of birth",
+        "gender": "Gender"
+      }
+    }
+  },
+  "visit": {
+    "title": "Посещение врача",
+    "provider": "Provider",
+    "diagnosis": "Diagnosis",
+    "gender": "Gender",
+    "email": "Email",
+    "phone": "Phone",
+    "zip_code": "Zip code",
+    "conclusion": "Conclusion",
+    "health": "Health",
+    "recomend": "Recomend"
+  },
+  "map": {
+    "title": "Карта филиалов",
+    "button": "Добавить адрес",
+    "status": {
+      "opened": "Открыто",
+      "closed": "Закрыто"
+    },
+    "statistic": {
+      "total_send": "Total send",
+      "report": "Отчет",
+      "opened": "Opened",
+      "clicked": "Clicked"
+    },
+    "add_location": {
+      "title": "Добавить локацию",
+      "add_photo": "Добавить фото",
+      "main_data": {
+        "title": "Основная информация",
+        "labels": {
+          "title": "Название филиала",
+          "found": "Год отрытия",
+          "address": "Адрес филиала",
+          "zipCode": "Индекс",
+          "description": "Описание",
+          "usefulLink": "Полезная ссылка"
+        }
+      },
+      "buttons": {
+        "discacrd": "Discacrd changes",
+        "save": "Save changes"
+      },
+      "work_time": {
+        "title": "График работы",
+        "labels": {
+          "monday": "Monday",
+          "tuesday": "Tuesday",
+          "wednesday": "Wednesday",
+          "thursday": "Thursday",
+          "friday": "Friday",
+          "saturday": "Saturday",
+          "sunday": "Sunday",
+          "from": "From",
+          "to": "To"
+        }
+      }
+    },
+    "review": {
+      "title": "Review",
+      "button": "Add resource"
+    },
+    "linked": {
+      "title": "Linked locations",
+      "button": "Add linked",
+      "binding": "Location binding"
+    }
+  },
+  "calendar": {
+    "title": "Календарь",
+    "button": "Добавить запись",
+    "filters": {
+      "service": "Услуга",
+      "doctor": "Врач"
+    },
+    "search": {
+      "placeholder": "Поиск...",
+      "buttons": {
+        "clear": "Сбросить",
+        "find": "Искать"
+      },
+      "labels": {
+        "what": "Что",
+        "who": "Кто",
+        "room": "Кабинет",
+        "date": "Дата"
+      },
+      "placeholders": {
+        "keywords": "Ключевые слова",
+        "membership": "Участник мероприятия",
+        "name_or_number": "Название или номер",
+        "from": "С",
+        "to": "По"
+      }
+    },
+    "detail": {
+    },
+    "delete_event": {
+      "title": "Вы уверены, что хотите удалить данное событие?",
+      "text": "Удаление события из календаря - приведет к удалению события из всех списков активностей, в том числе из базы данных клиники. Пациент будет уведомлен об отмене записи в соответствии с настройками активности.",
+      "buttons": {
+        "cancel": "Отмена",
+        "send": "Удалить событие"
+      }
+    },
+    "event": {
+      "title": "Новая запись",
+      "labels": {
+        "name":"Имя пациента",
+        "doctor":"Лечащий врач",
+        "start":"Начало приема",
+        "end":"Конец приема",
+        "comment":"Комментарий"
+      },
+      "buttons": {
+        "save": "Сохранить",
+        "add": "Добавить запись"
+      }
+    }
+  },
+  "show_more": "Показать все ({{count}})",
+  "steps": {
+    "personal_info": "Personal info",
+    "contact_info": "Contact info",
+    "appointment": "Appointment",
+    "patient_info": "Patient info",
+    "dental_info": "Dental info",
+    "medical_history": "Medical history",
+    "signature": "Signature",
+    "buttons": {
+      "back": "Back",
+      "next": "Next",
+      "send": "Send form to clinic"
+    }
+  },
+  "personal_info": {
+    "title": "1. Personal information",
+    "labels": {
+      "first_name": "First name",
+      "last_name": "Last Name",
+      "patronymic_name": "Patronymic name",
+      "birth": "Date of birth",
+      "gender": "Gender",
+      "name_title": "Name title",
+      "security_number": "Social security number"
+    }
+  },
+  "contact_info": {
+    "title": "2. Contact information",
+    "labels": {
+      "cellphone": "Cellphone",
+      "work_home": "Work home",
+      "email": "Email adress",
+      "home_phone": "Home phone",
+      "country": "Country",
+      "city": "City",
+      "zipCode": "ZIP code",
+      "address": "Adress (street, building, apart)",
+      "marital_status": "Marital status"
+    }
+  },
+  "appointment": {
+    "title": "3. Appointment preference",
+    "labels": {
+      "sms": "Email me",
+      "email": "SMS me",
+      "earlier": "Would you like to come in for an earlier appointment?",
+      "toggle": "For your convenience our office can communicate with you, its ok for the office to:"
+    }
+  },
+  "patient_info": {
+    "title": "4. Patient information",
+    "labels": {
+      "type_patient": "What are you type of patient?",
+      "is_employed": "Are you employed?",
+      "employer_company": "Employer company",
+      "employee_position": "Employee position",
+      "is_student": "Are you student?",
+      "school": "School or university",
+      "is_insurance": "Do you have insurance?",
+      "insurance_company": "Insurance company",
+      "insurance_group": "Insurance group",
+      "insurance_police_number": "Insurance police number",
+      "emergency_contact": "Emergency contact",
+      "emergency_phone": "Cellphone"
+    }
+  },
+  "dental_info": {
+    "title": "5. Dental information",
+    "labels": {
+      "sensetive": "My teeth are sensetive to:",
+      "is_pain": "Are you in pain right now?",
+      "dental_problems": "Choose your dental problems:",
+      "explain_pain": "If it other pain? explain it here..."
+    }
+  },
+  "medical_history": {
+    "title": "6. Medical history",
+    "labels": {
+      "is_physician": "Are you under the care of a physician?",
+      "explain_physician": "Please explain...",
+      "is_operation": "Have you ever been hospitalized or had a major operation?",
+      "is_injury": "Have you ever had a serious head or neck injury?",
+      "is_medications": "Are you taking any medications, pills or drugs?",
+      "is_redux": "Do you take, or have you taken, Phen-Fen or Redux?",
+      "is_bisphosphorates": "Do you or have you ever taken Fosamax, Actonel or any other medications constaining bisphosphorates?",
+      "is_diet": "Are you on a special diet?",
+      "is_tabaco": "Do you use tabacco?",
+      "is_substances": "Do you use controlled substances?",
+      "is_antibiotics": "Has doctor recommended that you take antibiotics or pre-medication prior to your dental appointment?",
+      "for_women": "FOR WOMEN: Are you...",
+      "allergic": "Are you allergic to any of the following?",
+      "is_allergies": "Do you know any other known allergies?",
+      "diseases": "Do you have or have you had any of the following diseases or medical conditions?",
+      "is_illnes": "Have you ever had any serious illnes not listed above?",
+      "comments": "Your comments here..."
+    }
+  },
+  "signature": {
+    "title": "7. Signature to approve registration",
+    "labels": {
+      "first_name": "First name",
+      "birth": "Date of birth"
+    }
+  },
+  "final": {
+    "title": "Thank you! We have received your request!",
+    "text": "Filled this form out in our office? If so, please, return the computer to reception and have a seat - the doctor will see you shortly.",
+    "buttons": {
+      "subscribe": "Subscribe for email",
+      "link": "Go to the website"
+    }
+  },
+  "website": {
+    "try": "Попробовать",
+    "title": "Стоматология доктора Успенского",
+    "button": "Записаться",
+    "about": "О нас",
+    "review": {
+      "button": "Оставить отзыв"
+    },
+    "main": {
+      "last_news": "Последние новости",
+      "show_all_news": "Смотреть все",
+      "doctors": "Наши врачи",
+      "show_all_doctors": "Смотреть всех",
+      "gallery": "Галерея",
+      "show_all_arts": "Смотреть все",
+      "work_hours": "Часы работы",
+      "services": "Услуги клиники",
+      "addresses": "Наши адреса",
+      "addresses_button": "Записаться"
+    },
+    "doctor": {
+      "title": "Наши врачи",
+      "services": "Услуги",
+      "about": "Обо мне",
+      "booking": "Запись на прием",
+      "date": "Select date",
+      "service": "Выберите услугу",
+      "change_location": "Изменить локацию",
+      "button_booking": "Записаться"
+    },
+    "news": {
+      "title": "Последние новости"
+    },
+    "booking_form": {
+      "title": "What type of appointment would you like to schedule?",
+      "buttons": {
+        "change_location": "Изменить локацию",
+        "select_location": "Выбрать эту локацию"
+      },
+      "labels": {
+        "select_appointment": "Select appointment",
+        "date": "Select date"
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+export { default as Svg } from "./Svg";
+export type { SvgProps } from "./types";
+
+export {default as LogoFullIcon} from './icons/LogoFull';
+export {default as EyeIcon} from './icons/Eye';
+export {default as CheckIcon} from './icons/Check';
+export {default as ChevronIcon} from './icons/Chevron';
+export {default as ChevronRightIcon} from './icons/ChevronRight';
+export {default as LogoMiniIcon} from './icons/LogoMini';
+export {default as SearchIcon} from './icons/Search';
+export {default as DoctorIcon} from './icons/Doctor';
+export {default as CloseIcon} from './icons/Close';
+export {default as WalletIcon} from './icons/Wallet';
+export {default as RussiaIcon} from './icons/Russia';
+export {default as NotificationIcon} from './icons/Notification';
+export {default as MessageIcon} from './icons/Message';
+export {default as PlusIcon} from './icons/Plus';
+export {default as ChevronDownIcon} from './icons/ChevronDown';
+export {default as UserIcon} from './icons/User';
+export {default as DeleteIcon} from './icons/Delete';
+export {default as EditIcon} from './icons/Edit';
+export {default as GoogleIcon} from './icons/Google';
+export {default as LinkIcon} from './icons/Link';
+export {default as PaperclipIcon} from './icons/Paperclip';
+export {default as CameraIcon} from './icons/Camera';
+export {default as PostsIcon} from './icons/Posts';
+export {default as ClockIcon} from './icons/Clock';
+export {default as CommentIcon} from './icons/Comment';
+export {default as ReitingIcon} from './icons/Reiting';
+export {default as MoreIcon} from './icons/More';
+export {default as SmileIcon} from './icons/Smile';
+export {default as DownloadIcon} from './icons/Download';
+export {default as SliderHorizontalIcon} from './icons/SliderHorizontal';
+export {default as SendIcon} from './icons/Send';
+export {default as CopyIcon} from './icons/Copy';
+export {default as LockIcon} from './icons/Lock';
+export {default as AddPatientIcon} from './icons/AddPatient';
+export {default as MoreVerticalIcon} from './icons/MoreVertical';
+export {default as SettingsIcon} from './icons/Settings';
+export {default as EyeOffIcon} from './icons/EyeOff';
+export {default as FacebookIcon} from './icons/Facebook';
+export {default as SmartphoneIcon} from './icons/Smartphone';
+export {default as QrcodeIcon} from './icons/Qrcode';
+export {default as LinkSecondIcon} from './icons/LinkSecond';
+export {default as CreditCardIcon} from './icons/CreditCard';
+export {default as TransactionIcon} from './icons/Transaction';
+export {default as CrossIcon} from './icons/Cross';
+
+// Fields icons
+export {default as NumberIcon} from './fields/Number';
+export {default as RadioIcon} from './fields/Radio';
+export {default as TextIcon} from './fields/Text';
+export {default as TextInputIcon} from './fields/TextInput';
+export {default as DropdownIcon} from './fields/Dropdown';
+export {default as DragHorizontalIcon} from './fields/DragHorizontal';
+export {default as SaveIcon} from './fields/Save';
+export {default as FormsIcon} from './fields/Forms';
+
+// Menu icons
+export {default as AdvertismentIcon} from './menuIcons/Advertisment';
+export {default as AnalyticIcon} from './menuIcons/Analytic';
+export {default as BookingIcon} from './menuIcons/Booking';
+export {default as CalendarIcon} from './menuIcons/Calendar';
+export {default as ClinicIcon} from './menuIcons/Clinic';
+export {default as HelpIcon} from './menuIcons/Help';
+export {default as HomeIcon} from './menuIcons/Home';
+export {default as LaptopIcon} from './menuIcons/Laptop';
+export {default as MapIcon} from './menuIcons/Map';
+export {default as NewsIcon} from './menuIcons/News';
+export {default as PatientIcon} from './menuIcons/Patient';
+export {default as StarIcon} from './menuIcons/Star';
+export {default as TemplatesIcon} from './menuIcons/Templates';
+export {default as WaitlistIcon} from './menuIcons/Waitlist';
+

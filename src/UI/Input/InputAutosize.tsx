@@ -1,0 +1,83 @@
+import React, {useEffect, useRef, useState} from 'react';
+import styled from "styled-components";
+import TextareaAutosize from 'react-textarea-autosize';
+import {InputProps} from "./types";
+
+const InputAutosizeBlock = styled.div`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+`
+
+const InputAutosizeStyled = styled(TextareaAutosize)<{ isFocused: boolean, isIconLeft: boolean }>`
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  resize: none;
+  color: ${({theme}) => theme.colors.black};
+  border-bottom: 1px solid ${({theme}) => theme.colors.borderInputDefault};
+  padding: ${({isFocused}) => isFocused ? '20px' : '15px'} 0 15px;
+  
+  ${({isIconLeft}) => isIconLeft ? 'padding-left: 32px;' : ''}
+  &:focus {
+    border-color: ${({theme}) => theme.colors.green};
+  }
+
+  &::placeholder {
+    color: ${({theme}) => theme.colors.gray};
+  }
+`
+const Label = styled.label<{ isFocused: boolean }>`
+  color: ${({isFocused, theme}) => theme.colors[isFocused ? 'grayC4' : 'gray']};
+  position: absolute;
+  top: ${({isFocused}) => isFocused ? '0' : '50%'};
+  transform: translateY(-50%);
+  left: 0;
+  font-weight: 500;
+  font-size: ${({isFocused}) => isFocused ? '12px' : '16px'};
+  line-height: ${({isFocused}) => isFocused ? '100%' : '140%'};
+`
+
+const IconBlock = styled.div`
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+`
+
+function InputAutosize({onChange, label, id, value, iconLeft}: InputProps) {
+    const [isFocused, setIsFocused] = useState<boolean>(false);
+
+    const wrapper = useRef<HTMLDivElement | null>(null);
+
+    useEffect(() => {
+        if (!isFocused && value) {
+            setIsFocused(!!value)
+        }
+    }, [value, isFocused])
+
+    return (
+        <InputAutosizeBlock ref={wrapper}>
+            <Label isFocused={isFocused} htmlFor={id}>{label}</Label>
+            {(isFocused && iconLeft) && <IconBlock>{iconLeft}</IconBlock>}
+            <InputAutosizeStyled isFocused={isFocused}
+                                 isIconLeft={!!iconLeft}
+                                 value={value}
+                                 onFocus={() => setIsFocused(true)}
+                                 onBlur={() => setIsFocused(false)}
+                                 onChange={event => onChange(event.target.value)}/>
+        </InputAutosizeBlock>
+    );
+}
+
+export default InputAutosize;

@@ -1,0 +1,9 @@
+export {default as NavbarView} from './NavbarView';
+export {default as LastNewsView} from './LastNewsView'; 
+export {default as GalleryView} from './GalleryView'; 
+export {default as DoctorsView} from './DoctorsView'; 
+export {default as WorkHourView} from './WorkHourView'; 
+export {default as ServicesView} from './ServicesView'; 
+export {default as AddressesView} from './AddressesView'; 
+export {default as BookingView} from './BookingView';
+export {default as BookingFormView} from './BookingFormView';

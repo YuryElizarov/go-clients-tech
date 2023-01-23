@@ -1,0 +1,10 @@
+export {default as MainDataComponent} from './MainDataComponent'; 
+export {default as MainPhotoComponent} from './MainPhotoComponent';
+export {default as BannerDataComponent} from './BannerDataComponent';
+export {default as WrapperComponent} from './WrapperComponent';
+export {default as GalleryComponent} from './GalleryComponent';
+export {default as DoctorsComponent} from './DoctorsComponent';
+export {default as ReviewsComponent} from './ReviewsComponent';
+export {default as WorktimeComponent} from './WorktimeComponent';
+export {default as SelectLocationComponent} from './SelectLocationComponent';
+export {default as SelectServicesComponent} from './SelectServicesComponent'; 

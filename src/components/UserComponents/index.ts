@@ -1,0 +1,13 @@
+export {default as CardComponent} from './CardComponent';
+export {default as EnterComponent} from './EnterComponent';
+export {default as DevicesComponent} from './DevicesComponent';
+export {default as ProfileComponent} from './ProfileComponent';
+export {default as MainFormComponent} from './MainFormComponent';
+export {default as EmailSettingsComponent} from './EmailSettingsComponent';
+export {default as DashboardSettingsComponent} from './DashboardSettingsComponent';
+export {default as ReferralComponent} from './ReferralComponent'; 
+export {default as TableListComponent} from './TableListComponent'; 
+export {default as AccountComponent} from './AccountComponent'; 
+export {default as AddEmployeeComponent} from './AddEmployeeComponent';
+export {default as PermissionComponent} from './PermissionComponent';
+export {default as LocationsComponents} from './LocationsComponents';

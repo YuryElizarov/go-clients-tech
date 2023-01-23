@@ -1,0 +1,15 @@
+export {default as SearchModal} from './SearchModal';
+export {default as NewWaitlistModal} from './NewWaitlistModal';
+export {default as PinModal} from './PinModal';
+export {default as AnswerReviewModal} from './AnswerReviewModal';
+export {default as TimetableModal} from './TimetableModal';
+export {default as AddServiceModal} from './AddServiceModal';
+export {default as EditServiceModal} from './EditServiceModal';
+export {default as QrcodeModal} from './QrcodeModal';
+export {default as CustomizeFormModal} from './CustomizeFormModal';
+export {default as PreviewModal} from './PreviewModal';
+export {default as SendModal} from './SendModal';
+export {default as AddPatientModal} from './AddPatientModal';
+export {default as CalendarDetailModal} from './CalendarDetailModal';
+export {default as DeleteEventModal} from './DeleteEventModal';
+export {default as NewEventModal} from './NewEventModal';
